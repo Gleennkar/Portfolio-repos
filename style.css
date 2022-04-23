@@ -272,11 +272,15 @@ color: #7f8cff;
   padding: 1em 0;
   font-size: 1.5em;
   font-weight: 400;
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 1px solid #f7f7f9;
+  background-color: white;
 }
 
 .languages li {
   color: black;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 .skill {
   display: flex;
@@ -291,4 +295,8 @@ color: #7f8cff;
 .skill p {
   margin-left: 10px;
   font-weight: bold;
+}
+.about-skills {
+  background-color: white;
+  padding: 12px;
 }
