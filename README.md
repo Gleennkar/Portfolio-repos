@@ -3,7 +3,7 @@
 
 # My portfolio
 
-> In this project, i was able to set up a "Hello world" repository. through the tools and best practices i learned about in previous steps. 
+> In this project, i was able to set up "My portfolio" repository. through the tools and best practices i learned about in previous steps. 
 
 
 ## Built With
