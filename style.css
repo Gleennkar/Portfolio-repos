@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 20px 24px;
+  background-color: white;
+}
+
+.header a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+p {
+  position: static;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 150px;
+  margin-left: 24px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.body {
+  border-radius: 0 0 0 35px;
+  background-image: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  height: 90vh;
+}
