@@ -151,7 +151,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: static;
-  width: 230px;
+  width: 180px;
   left: 12px;
   top: 4px;
   font-family: 'Poppins', sans-serif;
@@ -295,7 +295,6 @@ body {
   display: flex;
   align-items: center;
   margin-top: 15px;
-  width: 100%;
   padding: 0.5em;
   background-color: #f7f7f9;
   gap: 1em;
