@@ -285,61 +285,52 @@ body {
   margin-bottom: 12px;
 }
 
-.about-skills ul li {
+.tech-skills{
+  display: flex;
   list-style-type: none;
-  text-decoration: none;
-  position: static;
-  height: 66.72px;
-  left: 12px;
-  top: 12px;
-  background: #F7F7F9;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  font-family: 'Poppins, sans-serif';
-  font-weight: 500px;
-  margin-left: 60px;
-  margin-right: 24px;
-  width: 350px;  
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400px;
+background: #F7F7F9;
+border-radius: 8px;
+margin: 12px 0px;
+width: 420px;
+margin-left: 24px; 
+color: #253858;
+border-radius: 8px;
+border: 1px solid red;
+
 }
 
-.about-skills ul li a {
-  text-decoration: none;
-  color: black;
+.skills h2{
+  margin-left: 24px;
+  margin-right: 60px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 1em 0;
-  font-size: 1.5em;
-  font-weight: 400;
-  background-color: white;
-  padding-bottom: 30px;
-}
-
-.skill {
-  display: flex;
   align-items: center;
-  margin-top: 15px;
-  padding: 0.5em;
-  background-color: #f7f7f9;
-  gap: 1em;
-  border-radius: 0.5em;
 }
-
-.skill p {
-  margin-left: 10px;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.about-skills {
+.skills {
   background-color: white;
-  padding: 12px;
+  padding: 24px;
+  margin-bottom: 100px;
+
 }
- .about-skills .closed a {
-  border-top: 1px solid red;
+
+.skills h3{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  height: 40px;
+  align-items: center;
+  color: #000000;
+  border-bottom: 2px solid #DFE1E6;;
+  padding: 15px 25px;
+  width: 370px;
+  margin-left: 15px;
  
 }
+
