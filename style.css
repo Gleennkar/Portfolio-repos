@@ -168,7 +168,20 @@ body {
   color: black;
   padding: 12px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px/2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+
+
 }
 
 .project ul li {
@@ -275,7 +288,20 @@ body {
 .about-skills ul li {
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: static;
+  height: 66.72px;
+  left: 12px;
+  top: 12px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Poppins, sans-serif';
+  font-weight: 500px;
+  margin-left: 60px;
+  margin-right: 24px;
+  width: 350px;  
 }
 
 .about-skills ul li a {
@@ -287,8 +313,8 @@ body {
   padding: 1em 0;
   font-size: 1.5em;
   font-weight: 400;
-  border-bottom: 1px solid #f7f7f9;
   background-color: white;
+  padding-bottom: 30px;
 }
 
 .skill {
@@ -303,10 +329,17 @@ body {
 
 .skill p {
   margin-left: 10px;
-  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about-skills {
   background-color: white;
   padding: 12px;
+}
+ .about-skills .closed a {
+  border-top: 1px solid red;
+ 
 }
