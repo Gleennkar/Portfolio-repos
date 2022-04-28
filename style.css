@@ -287,24 +287,20 @@ body {
 
 .tech-skills{
   display: flex;
-  list-style-type: none;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
   font-weight: 400px;
-background: #F7F7F9;
 border-radius: 8px;
 margin: 12px 0px;
-width: 420px;
 margin-left: 24px; 
 color: #253858;
 border-radius: 8px;
-border: 1px solid red;
 
 }
 
 .skills h2{
   margin-left: 24px;
-  margin-right: 60px;
+  margin-right: 30px;
   padding-bottom: 25px;
   display: flex;
   justify-content: space-between;
@@ -314,6 +310,7 @@ border: 1px solid red;
   background-color: white;
   padding: 24px;
   margin-bottom: 100px;
+  list-style-type: none;
 
 }
 
@@ -327,10 +324,34 @@ border: 1px solid red;
   height: 40px;
   align-items: center;
   color: #000000;
-  border-bottom: 2px solid #DFE1E6;;
+  border-bottom: 2px solid #dfe1e6;;
   padding: 15px 25px;
-  width: 370px;
   margin-left: 15px;
  
+}
+
+.tech-skills li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  list-style-type: none;
+  background: #f7f7f9;
+  margin-bottom: 10px;
+  color: #253858;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  height: 40px;
+  height: 66.72px;
+  margin-right: 15px;
+
+}
+
+.tech-skills-detail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-left: 10px;
 }
 
