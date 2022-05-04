@@ -328,6 +328,15 @@ body {
 
 }
 
+.footer-wrap{
+  display:flex;
+  flex-direction: column;
+  background-image: url("./Images/contactformshaps-mobile@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
 .contact_form {
   display: flex;
   justify-items: center;
@@ -372,6 +381,8 @@ margin-left: 10px;
   padding-bottom: 30px;
   margin-left: 35px;
 }
+
+
 
 .contact_form input,
 textarea {
