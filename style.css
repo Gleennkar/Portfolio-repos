@@ -10,7 +10,7 @@
 
 body {
   width: 475px;
-  border: 1px solid gray;
+ 
 
 }
 .body h2 {
@@ -316,8 +316,6 @@ body {
 
 .footer {
   background-image: url("./Images/Contactbg.png");
-  background-color: #fff;
-  background-image: url("./Images/contactformshaps-mobile@2x.png");
   background-color: #6070FF;
   background-position: right;
   background-repeat: no-repeat;
@@ -343,21 +341,12 @@ body {
   flex-direction: column;
 }
 .footer h3 {
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-color: #ffffff;
- margin-left: 50px;
-padding-left: 85px;
-margin-bottom: 20px;
-padding-top: 100px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   color: #ffffff;
-  margin-left: 24px;
+  margin-left: 95px;
   padding-left: 50px;
   margin-bottom: 20px;
   padding-top: 100px;
@@ -365,14 +354,6 @@ padding-top: 100px;
 }
 
 .footer p {
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-text-align: center;
-color: #ebebff;
-padding-bottom: 50px;
-margin-left: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -380,9 +361,8 @@ margin-left: 10px;
   color: #ebebff;
   padding-bottom: 30px;
   margin-left: 35px;
+  text-align: center;
 }
-
-
 
 .contact_form input,
 textarea {
@@ -419,3 +399,16 @@ textarea {
   margin-left: 60px;
 }
  
+.contact_form button:hover,
+.contact_form button:hover {
+  background: #6070ff;
+  color: white;
+  border: none;
+}
+
+.contact_form button:active,
+.contact_form button:active {
+  background: #2230d2;
+  color: white;
+  border: none;
+}
