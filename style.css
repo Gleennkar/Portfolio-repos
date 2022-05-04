@@ -5,55 +5,14 @@
  body {
   background: #f7f7f9;
   width: 475px;
-  /* border: 1px solid gainsboro; */
   
   }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  padding: 20px 24px;
-  background-color: white;
-}
+body {
+  width: 475px;
+  border: 1px solid gray;
 
-.header a {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  font-family: 'Poppins', sans-serif;
 }
-
-h1 {
-  font-family: 'Poppins', sans-serif;
-  padding: 15px;
-  padding-top: 100px;
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-.body p {
-  position: static;
-  width: 327px;
-  left: 24px;
-  top: 276px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-left: 24px;
-  font-family: 'Poppins', sans-serif;
-}
-
 .body h2 {
   color: #7f8cff;
   font-style: normal;
@@ -358,12 +317,25 @@ body {
 .footer {
   background-image: url("./Images/Contactbg.png");
   background-color: #fff;
+  background-image: url("./Images/contactformshaps-mobile@2x.png");
+  background-color: #6070FF;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 50px;
+  border-radius: 70px 0px 0px 0px;
   padding-bottom: 100px;
 
 }
+.footer-wrap{
+  display:flex;
+  flex-direction: column;
+  background-image: url("./Images/contactformshaps-mobile@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
 
 .contact_form {
   display: flex;
@@ -380,6 +352,15 @@ color: #ffffff;
 padding-left: 85px;
 margin-bottom: 20px;
 padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+  margin-left: 24px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  padding-top: 100px;
 
 }
 
@@ -392,9 +373,17 @@ text-align: center;
 color: #ebebff;
 padding-bottom: 50px;
 margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  padding-bottom: 30px;
+  margin-left: 35px;
 }
 
-.contact_form input, textarea {
+.contact_form input,
+textarea {
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 10px;
@@ -406,6 +395,7 @@ margin-left: 10px;
 .contact_form textarea {
   height: 200px;
 }
+
 .contact_form button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
