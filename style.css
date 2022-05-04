@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+ body {
+  background: #f7f7f9;
+  width: 475px;
+  /* border: 1px solid gainsboro; */
+  
+  }
 
 .header {
   display: flex;
@@ -323,8 +329,8 @@ body {
 .skills {
   background-color: white;
   padding: 24px;
-  margin-bottom: 100px;
   list-style-type: none;
+  padding-bottom: 124px;
 }
 
 .skills h3 {
@@ -350,31 +356,28 @@ body {
 }
 
 .footer {
-  background-image: url("./Images/contactformshaps-mobile@2x.png");
-   background-color: #6070FF; 
-   background-position: right;
+  background-image: url("./Images/Contactbg.png");
+  background-color: #fff;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 50px;
-  border-radius: 70px 0px 0px 0px ;
   padding-bottom: 100px;
-  border: 1px solid red;
 
 }
+
 .contact_form {
-display: flex;
-justify-items: center;
-flex-direction: column;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
 }
-
 .footer h3 {
 font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
 color: #ffffff;
-margin-left: 24px;
-padding-left: 50px;
+ margin-left: 50px;
+padding-left: 85px;
 margin-bottom: 20px;
 padding-top: 100px;
 
@@ -385,18 +388,19 @@ font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-/* text-align: center; */
+text-align: center;
 color: #ebebff;
-padding-bottom: 30px;
-margin-left: 35px;
+padding-bottom: 50px;
+margin-left: 10px;
 }
 
 .contact_form input, textarea {
   margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 10px;
   border: none;
   width: 337px;
+  margin-left: 60px;
 }
 
 .contact_form textarea {
@@ -420,4 +424,6 @@ margin-left: 35px;
 
 .contact_form button {
   width: 150px;
+  margin-left: 60px;
 }
+ 
