@@ -480,7 +480,6 @@ textarea {
 }
 
 @media (min-width: 475px) {
-
   body {
     width: 100vw;
   }
@@ -491,11 +490,9 @@ textarea {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 @media (min-width: 768px) {
-
   nav img {
     display: none;
   }
@@ -531,7 +528,7 @@ textarea {
   }
 
   body {
-    background-color: #e5e5e5;;
+    background-color: #e5e5e5;
   }
 
   .project {
@@ -539,7 +536,7 @@ textarea {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
-  
+
   .img1 {
     display: none;
   }
@@ -548,7 +545,8 @@ textarea {
     display: block;
   }
 
-  .project h2, .project p {
+  .project h2,
+  .project p {
     width: fit-content;
   }
 
@@ -557,10 +555,11 @@ textarea {
     grid-template-columns: 2fr 3fr;
   }
 
-  .about1 p, .about1 h3, .about1 ul {
+  .about1 p,
+  .about1 h3,
+  .about1 ul {
     margin-top: 25px;
     margin-bottom: 25px;
-
   }
 
   .skills {
@@ -574,7 +573,7 @@ textarea {
   .tech-skills-detail {
     flex-direction: column;
   }
-  
+
   .footer-wrap p {
     width: 500px;
     text-align: center;
@@ -584,11 +583,9 @@ textarea {
     background-image: url("./Images/contact-form-backgroundshapes@2x-desktop6.png");
     background-position: center;
   }
-
 }
 
 @media (min-width: 975px) {
-
   .img2 {
     display: block;
   }
@@ -611,5 +608,4 @@ textarea {
   .about {
     padding-inline: 100px;
   }
-
 }
