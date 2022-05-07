@@ -351,6 +351,7 @@ h1 {
   padding: 24px;
   list-style-type: none;
   padding-bottom: 124px;
+  padding-left: 0;
 }
 
 .skills h3 {
@@ -366,6 +367,7 @@ h1 {
   border-bottom: 2px solid #dfe1e6;
   padding: 15px 25px;
   margin-left: 15px;
+  padding-left: 0;
 }
 
 .tech-skills-detail {
@@ -564,6 +566,7 @@ textarea {
 
   .skills {
     margin-top: 60px;
+  
   }
 
   .tech-skills {
