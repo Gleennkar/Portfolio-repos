@@ -27,7 +27,8 @@ To get a local copy up and running follow these simple example steps.
 - git clone https://github.com/Gleennkar/Portfolio-repos.git
 - open with live server
 
-
+## Live Demo
+[Live Demo Link](https://gleennkar.github.io/Portfolio-repos/)
 
 
 ## Author
