@@ -27,9 +27,8 @@ section {
   font-weight: 800;
   font-size: 18px;
   line-height: 20px;
-  color:  #3a4399;
+  color: #3a4399;
   font-family: 'Poppins', sans-serif;
-  
 }
 
 h1 {
@@ -187,7 +186,7 @@ h1 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color:  #172b4d;
+  color: #172b4d;
   margin-bottom: 15px;
 }
 
@@ -319,7 +318,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color:  #182293;
+  color: #182293;
 }
 
 .icons {
