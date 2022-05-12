@@ -611,3 +611,7 @@ textarea {
     padding-inline: 100px;
   }
 }
+
+.contact_form label {
+  display: none;
+}
