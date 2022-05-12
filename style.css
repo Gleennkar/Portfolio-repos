@@ -27,8 +27,9 @@ section {
   font-weight: 800;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color:  #3a4399;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 h1 {
@@ -59,7 +60,7 @@ h1 {
 }
 
 .body h2 {
-  color: #7f8cff;
+  color: #182293;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -186,7 +187,7 @@ h1 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color:  #172b4d;
   margin-bottom: 15px;
 }
 
@@ -318,7 +319,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color:  #182293;
 }
 
 .icons {
@@ -405,10 +406,10 @@ h1 {
 .footer p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 28px;
   font-size: 20px;
-  color: #ebebff;
+  color: #efeff9;
   padding-bottom: 30px;
   margin-left: 35px;
   text-align: center;
