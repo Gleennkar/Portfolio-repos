@@ -5,6 +5,7 @@
 
 body {
   width: 475px;
+  font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -17,17 +18,24 @@ section {
   justify-content: space-between;
   text-decoration: none;
   padding: 20px 24px;
-  background-color: white;
+  background-color: #6070ff;
   border-radius: 35px 0 0 0;
+  opacity: 90%;
+  position: fixed;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
 }
 
 .header a {
   text-decoration: none;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 20px;
-  color: #3a4399;
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -58,6 +66,10 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+  display: none;
+}
+
 .body h2 {
   color: #182293;
   font-style: normal;
@@ -68,6 +80,11 @@ h1 {
   margin-left: 24px;
   margin-bottom: 12px;
   margin-top: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .body ul,
@@ -153,6 +170,11 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+}
+
+li {
+  display: inline-block;
+  padding: 0 1.25rem;
 }
 
 .tech-skills li {
@@ -614,4 +636,21 @@ textarea {
 
 .contact_form label {
   display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60rem;
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  cursor: pointer;
 }
