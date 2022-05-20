@@ -655,6 +655,7 @@ header {
   color: #fff;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+`
 }
 
 li:hover a {
@@ -663,7 +664,7 @@ li:hover a {
 
 .nav-toggle {
   display: none;
-  position: absolute;
+  position: absolute; 
   right: 1rem;
   top: 1.5rem;
   cursor: pointer;
@@ -714,7 +715,7 @@ li:hover a {
   }
 }
 
-.menu {
+ /* .menu { 
   position: absolute;
   background: #6070ffcf;
   width: 100%;
@@ -724,4 +725,4 @@ li:hover a {
   padding: 30px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-}
+ }  */
