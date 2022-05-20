@@ -22,7 +22,7 @@
             <!-- <div class="overlay">  -->
               <div class="nav-toggle" id="navToggle">
         
-                   <!-- <img id="navClosed" class="navIcon" src="./Images/Union.png" alt="hamburger menu">  -->
+                   <img id="navClosed" class="navIcon" src="./Images/Union.png" alt="hamburger menu"> 
                 <img id="navOpen" class="navIcon hidden" src="./Images/Close.png" alt="close hamburger">
               </div>
             </div>
@@ -42,7 +42,7 @@
     <header class="header">
         <a href="#">Gleen</a>
         <nav>
-            <img src="./Images/Union.png" class="navIcon" alt="hamburger">
+            <!-- <img src="./Images/Union.png" class="navIcon" alt="hamburger"> -->
             <ul class="desktop-links">
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
@@ -281,14 +281,15 @@
                 <br class="br"> project that needs coding. I’d <br class="br">love to help with it
             </p>
 
-            <form class="contact_form" action="https://formspree.io/f/xknypaqy" method="POST">
-                <label for="name">Yeremais</label>
-                <input type="text" id="name" Placeholder="Yeremais" maxlength="30" required>
-                <label for="email">natajayanj14@gmail.com</label>
-                <input type="email" id="email" placeholder="natajayanj14@gmail.com" required>
+            <form id="input" class="contact_form" action="https://formspree.io/f/xknypaqy" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" Placeholder="Your Name" maxlength="30" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <p id="form-message-error"></p>
                 <label for="msg">Write your message here</label> 
-                <textarea id="msg" placeholder="Write your message here" maxlength="500" required></textarea>
-
+                <textarea id="msg" rows="8" cols="20" placeholder="Write your message here" maxlength="500" required></textarea>
+            
 
                 <button type="submit" class="button"> Get It Touch</button>
 
