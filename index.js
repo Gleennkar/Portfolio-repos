@@ -22,38 +22,25 @@ form.addEventListener('submit', (event) => {
     displayMsg.style.visibility = 'hidden';
   }
 });
-
+// localStorage
 let userDetails = {
-    name: "",
-    email: "",
-    message: ""
-  }
-  
-  if (localStorage.getItem('savedDetails') !== null){
-    let finalDetails = localStorage.getItem('savedDetails')
-    userDetails = JSON.parse(finalDetails)
-  }
-  // localStorage
-  let userDetails = {
-    name: "",
-    email: "",
-    message: ""
-  }
-  
-  if (localStorage.getItem('savedDetails') !== null){
-    let finalDetails = localStorage.getItem('savedDetails')
-    userDetails = JSON.parse(finalDetails)
-  }
-  
-  const input = document.querySelectorAll('input,textarea');
-  input.forEach(item => {
-    item.value = userDetails[item.name];
-    item.addEventListener('input',(e) => {
-      userDetails[e.target.name] = e.target.value;
-  
-      let userData = JSON.stringify(userDetails);
-      localStorage.setItem('savedDetails', userData)
-    })
-  
-  })
-  
+  name: '',
+  email: '',
+  message: '',
+};
+
+if (localStorage.getItem('savedDetails') !== null) {
+  const finalDetails = localStorage.getItem('savedDetails');
+  userDetails = JSON.parse(finalDetails);
+}
+
+const input = document.querySelectorAll('input,textarea');
+input.forEach((item) => {
+  item.value = userDetails[item.name];
+  item.addEventListener('input', (e) => {
+    userDetails[e.target.name] = e.target.value;
+
+    const userData = JSON.stringify(userDetails);
+    localStorage.setItem('savedDetails', userData);
+  });
+});
