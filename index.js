@@ -8,9 +8,7 @@ navToggle.addEventListener('click', () => {
     icon.classList.toggle('hidden');
   });
 });
-
-
-
+//  formValidation
 const email = document.getElementById('email');
 const form = document.getElementById('input');
 const displayMsg = document.getElementById('form-message-error');
@@ -24,4 +22,3 @@ form.addEventListener('submit', (event) => {
     displayMsg.style.visibility = 'hidden';
   }
 });
-
